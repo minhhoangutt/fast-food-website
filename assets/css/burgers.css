@@ -1,0 +1,76 @@
+#content{
+
+    height: auto;
+    padding: 0 70px;
+    
+}
+ul.breadcrumb {
+
+    padding: 10px ;
+    list-style: none;
+}
+ 
+  
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  ul.breadcrumb li a {
+ color: black;
+    text-decoration: none;
+  }
+  ul.breadcrumb li a:hover {
+    color: #f30;
+    text-decoration: none;
+  }
+.col{
+    width: 25%;
+    margin: 14px;
+    float: left;
+}
+.row{
+   padding: 20px;
+   width: 100%;
+   text-transform: uppercase;
+   color: #ccc;
+   text-align: left;
+}
+.content-body .row{
+    margin-left: 50px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: lighter;
+  
+
+}
+.burger-header h2{
+  margin-left: 10px;
+}
+
+#footer{
+  width: 100%;
+}
+#header .header-search{
+  float: right;
+  padding: 25px 30px;
+  line-height: 15px;
+  margin-right: -16px;
+  cursor: pointer;
+  color: white;
+ 
+
+}
+#header .header-user{
+  float: right;
+  padding: 025px 30px;
+  line-height: 15px;
+  margin-right: -16px;
+  cursor: pointer;
+  color: white;
+  width: 80px;
+}
